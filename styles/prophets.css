@@ -1,0 +1,23 @@
+#cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  text-align: center;
+}
+
+section {
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+#cards h2 {
+  font-size: 1.95rem;
+}
+
+#cards h3 {
+  font-size: 17px;
+}
+
+#cards h4 {
+  font-size: 18px;
+}

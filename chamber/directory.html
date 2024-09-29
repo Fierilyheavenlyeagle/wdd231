@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alvaro Cerpa Baron">
+  <meta name="description" content="the directory page">
+  <title>Directory Page</title>
+  <link href="styles/directory.css" rel="stylesheet">
+  <link href="styles/directory-large.css" rel="stylesheet">
+  <script src="java/directory.js" defer></script>
+  <link rel="icon" href="../images/myicon.ico" type="image/x-icon" />
+  <meta property="og:title" content="Business Directory">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="A sorted list of company members">
+  <meta property="og:image" content="https://edifica.com.pe/blog/wp-content/uploads/historia-san-isidro.jpg">
+  <meta property="og:url" content="https://fierilyheavenlyeagle.github.io/wdd231/chamber/directory">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<header>
+  <img src="../images/myicon.ico" width="34" height="40">
+  <h1 class="BizConnect">BizConnect</h1>
+  <button id="mybutton">&#9776;</button>
+  <h4 class="chamber">Chamber of Commerce</h4>
+</header>
+<nav>
+  <ul class="animateme">
+    <li id="navelement">Home</li>
+    <li id="directory">Directory</li>
+    <li id="navelement">Join</li>
+    <li id="descover">Descover</li>
+  </ul>
+  <nav>
+    <main>
+      <div class="menu">
+        <h1 class="businessDirectory">
+          Business Directory
+        </h1>
+        <div class="buttons">
+          <button id="grid">⏹️Grid</button>
+          <button id="list">📄List</button>
+        </div>
+      </div>
+      <article id="cards"></article>
+    </main>
+    <footer>
+      <ul class="foot">
+        <li class="one">
+          <h3>BizConnect Chamber of Commerce</h3>
+          <h4>456 Commerce St</h4>
+          <h4>Peru, Lima 15088</h4>
+          <h4>contact@bizconnectchamber.pe</h4>
+          <h4>+51 1 987 5435</h4>
+        </li>
+        <li class="socialMedia">
+          <ion-icon name="logo-youtube"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </li>
+        <li class="dos">
+          <h4>WDD231 Class Project</h4>
+          <h4>Alvaro Cerpa Baron</h4>
+          <p class="footer-p">
+            @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+          </p>
+          <p class="modification">
+            <span id="lastModified"></span>
+          </p>
+        </li>
+      </ul>
+
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    </body>
+
+</html>

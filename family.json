@@ -1,0 +1,34 @@
+{
+  "family": "Baron",
+  "moving-date": "05/09/2012",
+  "members-number": 5,
+  "bishot-visit": true,
+  "individual-members": [
+    {
+      "name": "Alvaro",
+      "gender": "Male",
+      "birthdate": "05/01/2002"
+    },
+    {
+      "name": "Dante",
+      "gender": "Male",
+      "birthdate": "28/05/1989"
+    },
+    {
+      "name": "Juan",
+      "gender": "Male",
+      "birthdate": "14/02/1969"
+    },
+    {
+      "name": "Beatriz",
+      "gender": "Female",
+      "birthdate": "29/08/1959"
+    },
+    {
+      "name": "Ana Lucia",
+      "gender": "Female",
+      "birthdate": ""
+    }
+  ]
+}
+
