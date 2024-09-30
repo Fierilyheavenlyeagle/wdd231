@@ -7,8 +7,9 @@
   <meta name="description" content="My own page">
   <meta name="author" content="Alvaro C. Baron">
   <title>Document</title>
-  <link href="styles/styles.css" rel="stylesheet">
-  <script src="scripts/java.js" defer></script>
+  <link href="styles/index-short.css" rel="stylesheet">
+  <link href="styles/index.css" rel="stylesheet">
+  <script src="scripts/index.js" defer></script>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <meta property="og:title" content="My Student Profile Page">
   <meta property="og:type" content="website" />
@@ -20,19 +21,59 @@
 </head>
 
 <body>
-  <header></header>
+  <header class="mainheader">
+    <button id="mybutton">&#9776;</button>
+    <img class="me" src="images/1702948489792.jpeg" alt="me">
+    <h1>Alvaro C.Baron</h1>
+  </header>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="chamber.html">Chamber</a>
-    <a href="https://github.com/Fierilyheavenlyeagle">GitHub Profile</a>
-    <a href="www.linkedin.com/in/alvaro-cerpa-barón">LinkedIn</a>
+    <a href="index.html" class="link">Home</a>
+    <a href="chamber.html" class="link">Chamber</a>
+    <a href="https://github.com/Fierilyheavenlyeagle" class="link">GitHub Profile</a>
+    <a href="www.linkedin.com/in/alvaro-cerpa-barón" class="link">LinkedIn</a>
   </nav>
   <main>
-    <section>Course Work</section>
-    <section>Toloria, Madagascar</section>
-    <section>Web and Computer Program Certificate</section>
+    <div class="firstrow">
+      <section class="coursesection">
+        <header class="courseheader">Course Work</header>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section class="limasection">
+        <header class="limaheader">Lima, Peru</header>
+        <img class="limaimg" src="images/descarga.jpeg" alt="Lima">
+      </section>
+    </div>
+    <div class="secondrow">
+      <section>
+        <header class="webheader">Web and Computer Program Certificate</header>
+        <ul class="prefix">
+          <li>ALL</li>
+          <li>CSE</li>
+          <li>WDD</li>
+        </ul>
+        <ul class="courses">
+          <li>CSE110</li>
+          <li>WDD130</li>
+          <li>CSE111</li>
+          <div id="cse210">CSE210</div>
+          <li>WDD131</li>
+          <div id="wdd231">WDD231</div>
+        </ul>
+      </section>
+    </div>
   </main>
-  <footer></footer>
+  <footer>
+    <p class="footer-p">
+      @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+    </p>
+    <p class="modification">
+      <span id="lastModified"></span>
+    </p>
+  </footer>
 </body>
 
 </html>
