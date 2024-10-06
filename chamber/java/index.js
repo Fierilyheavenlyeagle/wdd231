@@ -150,7 +150,7 @@ const temperatures = document.querySelector('.forecast')
 
 async function forecast() {
 
-  const url = 'http://api.weatherapi.com/v1/forecast.json?key=c28bd730645c4b4f86c164853240510&q=07112&days=4'
+  const url = 'https://api.weatherapi.com/v1/forecast.json?key=c28bd730645c4b4f86c164853240510&q=07112&days=4'
 
   try {
     const response = await fetch(url);
@@ -227,7 +227,7 @@ const currentWeatherInfo = document.querySelector('.currentWeatherInfo');
 async function currentWeather() {
 
   try {
-    const url = 'http://api.weatherapi.com/v1/forecast.json?key=c28bd730645c4b4f86c164853240510&q=07112&days=4'
+    const url = 'https://api.weatherapi.com/v1/forecast.json?key=c28bd730645c4b4f86c164853240510&q=07112&days=4'
 
     const response = await fetch(url);
     if (response.ok) {
