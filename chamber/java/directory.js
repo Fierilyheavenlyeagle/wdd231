@@ -3,7 +3,7 @@ const cards = document.querySelector('#cards')
 
 async function getCompaniesData() {
   const response = await fetch('/chamber/java/members.json');
-  const data = await response.json()
+  const data = await response.json();
 
   displayBusinesses(data.businesses);
 

@@ -1,0 +1,261 @@
+.hero img {
+  max-width: 30rem;
+  max-height: 225px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+#mybutton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  justify-self: start;
+}
+
+.rowtwo {
+  display: grid;
+  grid-template: 300px 315px 265px / auto;
+  gap: 15px;
+  margin: 0 20px 0 20px;
+}
+
+.rowthree {
+  display: grid;
+  grid-template: 250px 250px 250px /400px;
+  justify-content: center;
+  gap: 24px;
+
+}
+
+.businesshead {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(99, 191, 228, 0.274);
+  padding-bottom: 0.2rem;
+  display: grid;
+  grid-template-columns: 55px auto 44px;
+  grid-template-rows: auto 29px;
+  align-items: end;
+}
+
+.chamber {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  grid-column: 2/3;
+  align-self: start;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.BizConnect {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #335ada;
+  margin: 0 0 0 0;
+  font-size: 26pt;
+  padding-bottom: 0;
+}
+
+
+ul {
+  padding-left: 0px;
+}
+
+ul.animateme.close {
+  display: none;
+}
+
+#navelement {
+  background-color: #d5edf9;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+}
+
+#descover {
+  background-color: #d5edf9;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+}
+
+#navelement:hover {
+  background-color: #405cb0;
+
+}
+
+#descover:hover {
+  background-color: #405cb0;
+}
+
+#home:hover {
+  background-color: #405cb0;
+
+}
+
+#home {
+  background-color: #afd2fac0;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+}
+
+.foot {
+  display: block;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background-color: #d5edf9;
+  list-style: none;
+  padding-top: 14px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 23px;
+  font-size: 52px;
+}
+
+.box1 {
+  background-color: rgb(214, 245, 245);
+}
+
+.box2 {
+  background-color: rgb(214, 245, 245);
+}
+
+.box3 {
+  background-color: rgb(214, 245, 245);
+}
+
+header.rowtwohead {
+  background-color: aliceblue;
+  display: block;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-weight: 700;
+}
+
+.business {
+  background-color: #d6f6f5;
+  margin-top: 30px;
+}
+
+.businesshead {
+  display: grid;
+  grid-template-rows: 35px 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.businessimg {
+  max-width: 100px;
+}
+
+h3 {
+  font-size: 12pt;
+}
+
+.hometitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25.3px;
+  margin-left: 27px;
+}
+
+
+#businessTitle {
+  font-size: 12pt;
+  text-shadow: 2px 2px 22px rgba(0, 0, 0, 0.5);
+}
+
+#businessTitle2 {
+  font-size: 12pt;
+  text-shadow: 2px 2px 22px rgba(0, 0, 0, 0.5);
+}
+
+#businessTitle3 {
+  font-size: 12pt;
+  text-shadow: 2px 2px 22px rgba(0, 0, 0, 0.5);
+}
+
+.businessone {
+  display: grid;
+  grid-template-columns: 160px auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.businesstwo {
+  display: grid;
+  grid-template-columns: 160px auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.businessthree {
+  display: grid;
+  grid-template-columns: 160px auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.contactbusiness {
+  margin: 0 0 0 0;
+  font-size: 9pt;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+
+.currentWeather {
+  display: grid;
+  grid-template-columns: 130px auto;
+  font-size: 10pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.currentWeatherInfo {
+  margin-top: 14px;
+  font-size: 11pt;
+
+
+}
+
+.currentWeatherImg {
+  margin: 19px 0 0 35px;
+  max-width: 90px;
+}
+
+.forecastTitle {
+  font-size: 20pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+
+}
+
+.AveTemp {
+  font-size: 14pt;
+  margin-top: 22.5px;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: 110px auto;
+  align-items: center;
+  margin: 8px;
+  margin: 1px 0 0 30px;
+}
+
+.temperatureItself {
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

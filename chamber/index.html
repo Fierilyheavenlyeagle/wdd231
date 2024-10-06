@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alvaro Cerpa Baron">
+  <meta name="description" content="BizConnect Hommepage ">
+  <title>Directory Page</title>
+  <link href="styles/index.css" rel="stylesheet">
+  <link href="styles/index-large.css" rel="stylesheet">
+  <script src="java/index.js" defer></script>
+  <link rel="icon" href="../images/myicon.ico" type="image/x-icon" />
+  <meta property="og:title" content=" Biz Connect Homepage">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="BizConnect homepage">
+  <meta property="og:image" content="https://edifica.com.pe/blog/wp-content/uploads/historia-san-isidro.jpg">
+  <meta property="og:url" content="https://fierilyheavenlyeagle.github.io/wdd231/chamber/index">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+  <header>
+    <img src="../images/myicon.ico" width="34" height="40">
+    <h1 class="BizConnect">BizConnect</h1>
+    <button id="mybutton">&#9776;</button>
+    <h4 class="chamber">Chamber of Commerce</h4>
+  </header>
+  <nav>
+    <ul class="animateme">
+      <li id="home">Home</li>
+      <li id="navelement">Directory</li>
+      <li id="navelement">Join</li>
+      <li id="descover">Descover</li>
+    </ul>
+  </nav>
+
+  <body>
+    <section class="hero">
+      <picture>
+        <source media="(max-width: 799px)" srcset="../images/city-small.jpg">
+        <source media="(min-width: 800px)" srcset="../images/city-large.jpg">
+        <img src="../images/city.jpg" alt="Hero image description" width="1500" height="750">
+      </picture>
+    </section>
+    <h1 class="hometitle">Home</h1>
+    <section class="rowtwo">
+      <div class="box1">
+        <header class="rowtwohead">Events</header>
+        
+
+        </div>
+      </div>
+      <div class="box2">
+        <header class="rowtwohead">Current Weather</header>
+        <div class="currentWeather">
+          <div class="currentWeatherImg">
+
+          </div>
+          <div class="currentWeatherInfo">
+
+          </div>
+        </div>
+      </div>
+      <div class="box3">
+        <header class="rowtwohead">Weather Forecast</header>
+        <div class="forecast">
+          
+        </div>
+      </div>
+    </section>
+    <section class="rowthree">
+      <div class="business">
+        <div class="businesshead">
+          <h2><span id="businessTitle"></span></h2>
+          <h3><span id="area"></span></h3>
+        </div>
+        <div class="businessone">
+
+        </div>
+      </div>
+      <div class="business">
+        <div class="businesshead">
+          <h2><span id="businessTitle2"></span></h2>
+          <h3><span id="area2"></span></h3>
+        </div>
+        <div class="businesstwo">
+
+        </div>
+      </div>
+      <div class="business">
+        <div class="businesshead">
+          <h2><span id="businessTitle3"></span></h2>
+          <h3><span id="area3"></span></h3>
+        </div>
+        <div class="businessthree">
+
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <ul class="foot">
+      <li class="one">
+        <h3>BizConnect Chamber of Commerce</h3>
+        <h4>456 Commerce St</h4>
+        <h4>Peru, Lima 15088</h4>
+        <h4>contact@bizconnectchamber.pe</h4>
+        <h4>+51 1 987 5435</h4>
+      </li>
+      <li class="socialMedia">
+        <ion-icon name="logo-youtube"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </li>
+      <li class="dos">
+        <h4>WDD231 Class Project</h4>
+        <h4>Alvaro Cerpa Baron</h4>
+        <p class="footer-p">
+          @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+        </p>
+        <p class="modification">
+          <span id="lastModified"></span>
+        </p>
+      </li>
+    </ul>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

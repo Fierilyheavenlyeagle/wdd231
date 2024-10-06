@@ -8,7 +8,9 @@
       "image": "https://www.kallpasab.com/img/img-nexa.jpg",
       "membership_level": "3",
       "description": "A leading company dedicated to the exploration, extraction, and processing of polymetallic resources.",
-      "founded": "2010"
+      "founded": "2010",
+      "area": "Mining",
+      "email": "contact@nexaresources.com"
     },
     {
       "name": "Southern Copper Corporation",
@@ -18,7 +20,9 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxGMnYZHtSmVr99FK6kvG49uPyOMI16rzjO6Esu8pL9Fjcia3CKSdrmtXZRQmOWSbWTI&usqp=CAU",
       "membership_level": "3",
       "description": "One of the largest integrated copper producers in the world.",
-      "founded": "1952"
+      "founded": "1952",
+      "area": "Mining",
+      "email": "info@southerncoppercorp.com"
     },
     {
       "name": "Banco de Crédito del Perú (BCP)",
@@ -28,7 +32,9 @@
       "image": "https://cdn.t21.pe/wp-content/uploads/2023/05/banco-bcp.webp",
       "membership_level": "2",
       "description": "The largest bank in Peru, offering a variety of financial services.",
-      "founded": "1889"
+      "founded": "1889",
+      "area": "Banking",
+      "email": "contact@bcp.com"
     },
     {
       "name": "Cámara de Comercio de Lima (CCL)",
@@ -38,7 +44,9 @@
       "image": "https://www.camaralima.org.pe/wp-content/uploads/2020/07/logo-ccl.jpg",
       "membership_level": "2",
       "description": "A leading chamber of commerce that promotes business interests in Lima.",
-      "founded": "1888"
+      "founded": "1888",
+      "area": "Business Services",
+      "email": "info@camaralima.org.pe"
     },
     {
       "name": "Ransa",
@@ -48,7 +56,9 @@
       "image": "https://masedi.com.pe/wp-content/uploads/2015/06/ransa1.jpg",
       "membership_level": "3",
       "description": "A prominent logistics and supply chain management company in Peru.",
-      "founded": "1974"
+      "founded": "1974",
+      "area": "Logistics",
+      "email": "info@ransa.com"
     },
     {
       "name": "Cerro Verde",
@@ -58,7 +68,9 @@
       "image": "https://s3-symbol-logo.tradingview.com/sociedad-minera-cerro-verde-sa--600.png",
       "membership_level": "3",
       "description": "Operates one of the largest copper mines in Peru.",
-      "founded": "1976"
+      "founded": "1976",
+      "area": "Mining",
+      "email": "info@cerro-verde.com.pe"
     },
     {
       "name": "Latam Logistics",
@@ -68,7 +80,9 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjefGlUBr2BhPwZulQizmwFlUQLy9FsWbtVu1D286jl_EXebTtrSHL7oyLhW1wfhB2eY0&usqp=CAU",
       "membership_level": "2",
       "description": "Provides comprehensive logistics and freight services throughout Peru.",
-      "founded": "2010"
+      "founded": "2010",
+      "area": "Logistics",
+      "email": "contact@latamlogistics.com.pe"
     }
   ]
 }

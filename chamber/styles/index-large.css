@@ -1,0 +1,187 @@
+@media only screen and (min-width:40rem) {
+  .hero img {
+    max-width: 1320px;
+    max-height: 390px;
+    object-fit: cover;
+  }
+
+  .BizConnect {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #335ada;
+    margin-bottom: 0.5rem;
+    font-size: 26pt;
+    align-self: safe;
+  }
+
+  header {
+    display: grid;
+    grid-template: 80px 20px / 120px auto;
+    background-color: rgba(99, 191, 228, 0.274);
+    padding-bottom: 0.2rem;
+  }
+
+  #navelement {
+    background-color: #d5edf9;
+    display: block;
+    text-align: center;
+    unicode-bidi: normal;
+  }
+
+  #descover {
+    background-color: #d5edf9;
+    display: block;
+    text-align: center;
+    unicode-bidi: normal;
+  }
+
+  #navelement:hover {
+    background-color: #405cb0;
+
+  }
+
+  #descover:hover {
+    background-color: #405cb0;
+  }
+
+  #home:hover {
+    background-color: #405cb0;
+
+  }
+
+  #home {
+    background-color: #afd2fac0;
+    display: block;
+    text-align: center;
+    unicode-bidi: normal;
+  }
+
+  #mybutton {
+    display: none;
+  }
+
+  img {
+    justify-self: end;
+    max-height: 70%;
+    max-width: 60px;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #d5edf9;
+    list-style: none;
+    padding-top: 14px;
+  }
+
+  .socialMedia {
+    display: flex;
+    gap: 38px;
+    font-size: 52px;
+  }
+
+  .rowtwo {
+    display: grid;
+    grid-template: 268px / auto 300px 300px;
+    gap: 15px;
+    margin: 0 40px 0 40px;
+  }
+
+
+  .hometitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25.8px;
+    margin-left: 40px;
+  }
+
+  .rowthree {
+    display: grid;
+    grid-template: 250px /350px 350px 350px;
+    justify-content: center;
+    gap: 100px;
+
+  }
+
+  .businessimg {
+    max-width: 70px;
+  }
+
+  .businessone {
+    display: grid;
+    grid-template-columns: 90px auto;
+    justify-items: center;
+    align-items: center;
+    margin-top: 9px;
+  }
+
+  .businesstwo {
+    display: grid;
+    grid-template-columns: 90px auto;
+    justify-items: center;
+    align-items: center;
+    margin-top: 9px;
+  }
+
+  .businessthree {
+    display: grid;
+    grid-template-columns: 90px auto;
+    justify-items: center;
+    align-items: center;
+    margin-top: 9px;
+  }
+
+  .contactbusiness {
+    margin: 0 0 10px 14px;
+    font-size: 9pt;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+
+  .currentWeather {
+    display: grid;
+    grid-template-columns: 130px auto;
+    font-size: 10pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .currentWeatherInfo {
+    margin-top: 13px;
+    font-size: 9pt;
+  }
+
+  .currentWeatherImg {
+    margin: 19px 0 0 35px;
+    max-width: 90px;
+  }
+
+  .forecastTitle {
+    font-size: 16pt;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 9px;
+
+  }
+
+  .AveTemp {
+    font-size: 13pt;
+  }
+
+  .forecast {
+    display: grid;
+    grid-template-columns: 110px auto;
+    align-items: center;
+    margin: 8px
+  }
+
+  .temperatureItself {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+}
