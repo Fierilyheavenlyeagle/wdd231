@@ -2,7 +2,7 @@ const cards = document.querySelector('#cards')
 
 
 async function getCompaniesData() {
-  const response = await fetch('/chamber/java/members.json');
+  const response = await fetch('https://fierilyheavenlyeagle.github.io/wdd231/chamber/java/members.json');
   const data = await response.json();
 
   displayBusinesses(data.businesses);
@@ -131,16 +131,16 @@ const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
 gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
+  // example using arrow function
+  display.classList.add("grid");
+  display.classList.remove("list");
 });
 
 listbutton.addEventListener("click", showList); // example using defined function
 
 function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
+  display.classList.add("list");
+  display.classList.remove("grid");
 }
 
 const year = document.querySelector("#year");

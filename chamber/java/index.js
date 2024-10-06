@@ -35,7 +35,7 @@ const businessthree = document.querySelector('.businessthree');
 
 async function getCompaniesData() {
 
-  const response = await fetch('/chamber/java/members.json');
+  const response = await fetch('https://fierilyheavenlyeagle.github.io/wdd231/chamber/java/members.json');
   const data = await response.json();
 
   const shuffledBusinesses = data.businesses.sort(() => 0.5 - Math.random());
