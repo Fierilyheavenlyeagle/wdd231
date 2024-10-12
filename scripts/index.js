@@ -30,3 +30,18 @@ hamburger.addEventListener('click', () => {
   animateme.classList.toggle('open');
   hamburger.classList.toggle('open');
 })
+
+
+/*-----------------------------------------------*/
+
+const modal = document.querySelector('#modal');
+const openModal = document.querySelector(".open-modal");
+const closeModal = document.querySelector('.close-button');
+
+openModal.addEventListener('click', () => {
+  modal.showModal();
+});
+
+closeModal.addEventListener('click', () => {
+  modal.close();
+})

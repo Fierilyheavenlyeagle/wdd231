@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide In and Grow/Shrink Animation</title>
+  <style>
+    p {
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+
+    p span {
+      display: inline-block;
+      animation-duration: 3s;
+      animation-name: growshrink;
+    }
+
+    @keyframes slidein {
+      from {
+        translate: 150vw 0;
+        scale: 200% 1;
+      }
+
+      to {
+        translate: 0 0;
+        scale: 100% 1;
+      }
+    }
+
+    @keyframes growshrink {
+
+      25%,
+      75% {
+        scale: 100%;
+      }
+
+      50% {
+        scale: 200%;
+        color: magenta;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <p>This paragraph <span>animates this text</span> with both sliding and scaling effects.</p>
+
+</body>
+
+</html>

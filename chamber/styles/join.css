@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.close-button-profit {
+  position: absolute;
+  right: 0;
+}
+
+.close-button-bronze {
+  position: absolute;
+  right: 0;
+}
+
+.close-button-silver {
+  position: absolute;
+  right: 0;
+}
+
+.close-button-gold {
+  position: absolute;
+  right: 0;
+}
+
+.selectTitle {
+  font-weight: normal;
+  color: red;
+}
+
+.join {
+
+  font-weight: 23pt;
+}
+
+.joinForm {
+  display: block;
+  margin-left: 15px;
+}
+
+label {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10pt;
+}
+
+.dataTitle {
+  font-size: 14pt;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select {
+  display: block;
+  margin: .1rem 0 1rem 0;
+  padding: .3rem;
+  border: 1px solid #999;
+  font-size: 1rem;
+  width: 425px;
+  border-left-color: #999;
+  border-left-width: 5px;
+  border-radius: 4px;
+}
+
+input[type=radio] {
+  margin: .1rem 0 .9rem 0;
+}
+
+textarea {
+  display: block;
+  width: 425px;
+}
+
+button[type=submit] {
+  border: thin solid #999;
+  background-image: linear-gradient(white, rgb(187, 187, 187));
+  border-radius: 3px;
+  width: 425px;
+  font-weight: 500;
+  height: 32px;
+  margin: 25px 0 15px 0;
+
+}
+
+button[type=submit]:hover {
+  background-image: linear-gradient(white, rgb(163, 163, 163));
+}
+
+input:required {
+  border-left-color: red;
+  border-radius: 4px;
+}
+
+input:required:valid {
+  border-left-color: green;
+}
+
+.membershipLevel {
+  background-color: #afdcf3;
+  border: thin solid rgb(2, 133, 194);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  text-align: center;
+  height: 85px;
+  margin: 10px 0 15px 0;
+}
+
+.membershipHeader {
+  font-size: 23pt;
+}
+
+.levels {
+  margin: 13px 0 15px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+
+input[type=radio] {
+  margin-right: 3px;
+
+}
+
+
+/*----------------------*/
+
+
+#mybutton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  justify-self: start;
+}
+
+
+header {
+  background-color: rgba(99, 191, 228, 0.274);
+  padding-bottom: 0.2rem;
+  display: grid;
+  grid-template-columns: 55px auto 44px;
+  grid-template-rows: auto 29px;
+  align-items: end;
+}
+
+.chamber {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  grid-column: 2/3;
+  align-self: start;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.BizConnect {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #335ada;
+  margin: 0 0 0 0;
+  font-size: 26pt;
+  padding-bottom: 0;
+}
+
+
+ul {
+  padding-left: 0px;
+  display: grid;
+}
+
+ul.animateme.close {
+  display: none;
+}
+
+#navelement {
+  background-color: #d5edf9;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+  border: 0;
+}
+
+#descover {
+  background-color: #d5edf9;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+  border: 0;
+}
+
+#join {
+  background-color: #afd2fac0;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+  border: 0;
+}
+
+#navelement:hover {
+  background-color: #405cb0;
+
+}
+
+#descover:hover {
+  background-color: #405cb0;
+}
+
+#home:hover {
+  background-color: #405cb0;
+
+}
+
+
+
+.foot {
+  display: block;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background-color: #d5edf9;
+  list-style: none;
+  padding-top: 14px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 23px;
+  font-size: 52px;
+}
+
+
+h3 {
+  font-size: 12pt;
+}
+
+
+h4 {
+  margin-top: 20px
+}

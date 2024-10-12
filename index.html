@@ -24,7 +24,7 @@
   <header class="mainheader">
     <button id="mybutton">&#9776;</button>
     <img class="me" src="images/1702948489792.jpeg" alt="me">
-    <h1>Alvaro C.Baron</h1>
+    <h1 class="animateName">Alvaro C.Baron</h1>
   </header>
   <nav>
     <a href="index.html" class="link">Home</a>
@@ -57,7 +57,7 @@
         </ul>
         <ul class="courses">
           <li>CSE110</li>
-          <li>WDD130</li>
+          <button class="open-modal">WDD130</button>
           <li>CSE111</li>
           <div id="cse210">CSE210</div>
           <li>WDD131</li>
@@ -66,6 +66,15 @@
       </section>
     </div>
   </main>
+  <dialog class="modal" id="modal">
+    <button class="close-button">❌</button>
+    <header class="modalHeader"><h1>WDD 130</h1></header>
+    <h2>Web Fundamental</h2>
+    <h3>2 credits</h3>
+    <h3>Certificate: Web and Computer Programming</h3>
+    <h3>This course introduces students to the World Wide Web and to careers in web site design and development. The course is hands on with students actually participating in simple web designs and programming. It is anticipated that students who complete this course will understand the fields of web design and development and will have a good idea if they want to pursue this degree as a major.</h3>
+    <h3>Technology: HTML, CSS</h3>
+  </dialog>
   <footer>
     <p class="footer-p">
       @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru

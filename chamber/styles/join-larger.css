@@ -1,0 +1,126 @@
+@media only screen and (min-width:40rem) {
+  .membershipLevel {
+    animation-duration: 2s;
+    animation-name: slideIn, opacity;
+    animation-fill-mode: forwards;
+    background-color: #afdcf3;
+  }
+
+  @keyframes slideIn {
+    from {
+      translate: 0 120vw;
+      scale: 10% 1;
+    }
+
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+  @keyframes opacity {
+    0% {
+      opacity: 0;
+      display: none;
+    }
+
+    100% {
+      opacity: 1;
+      display: block
+    }
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: auto 420px;
+    justify-content: space-evenly;
+  }
+
+  /*-----------------------*/
+
+
+
+  .BizConnect {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #335ada;
+    margin-bottom: 0.5rem;
+    font-size: 26pt;
+    align-self: safe;
+  }
+
+  header {
+    display: grid;
+    grid-template: 80px 20px / 120px auto;
+    background-color: rgba(99, 191, 228, 0.274);
+    padding-bottom: 0.2rem;
+  }
+
+  #navelement {
+    background-color: #d5edf9;
+    display: block;
+    text-align: center;
+    unicode-bidi: normal;
+  }
+
+  #descover {
+    background-color: #d5edf9;
+    display: block;
+    text-align: center;
+    unicode-bidi: normal;
+  }
+
+  #navelement:hover {
+    background-color: #405cb0;
+
+  }
+
+  #descover:hover {
+    background-color: #405cb0;
+  }
+
+  #home:hover {
+    background-color: #405cb0;
+
+  }
+
+  #home {
+    background-color: #afd2fac0;
+    display: block;
+    text-align: center;
+    unicode-bidi: normal;
+  }
+
+  #mybutton {
+    display: none;
+  }
+
+
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #d5edf9;
+    list-style: none;
+    padding-top: 14px;
+  }
+
+  .socialMedia {
+    display: flex;
+    gap: 38px;
+    font-size: 52px;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  #navpriority {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    background-color: #d5edf9;
+  }
+
+}
+
+;

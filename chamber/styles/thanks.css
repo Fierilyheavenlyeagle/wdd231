@@ -1,0 +1,28 @@
+header {
+  background-color: rgba(99, 191, 228, 0.274);
+  padding-bottom: 0.2rem;
+  display: grid;
+  grid-template-columns: 55px auto 44px;
+  grid-template-rows: auto 29px;
+  align-items: end;
+}
+
+.chamber {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  grid-column: 2/3;
+  align-self: start;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+
+.BizConnect {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #335ada;
+  margin: 0 0 0 0;
+  font-size: 26pt;
+  padding-bottom: 0;
+}
+
+

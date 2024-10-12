@@ -30,6 +30,7 @@
     display: block;
     text-align: center;
     unicode-bidi: normal;
+    border: 0;
   }
 
   #descover {
@@ -37,6 +38,7 @@
     display: block;
     text-align: center;
     unicode-bidi: normal;
+    border: 0;
   }
 
   #directory {
@@ -44,6 +46,7 @@
     display: block;
     text-align: center;
     unicode-bidi: normal;
+    border: 0;
   }
 
 
@@ -249,7 +252,12 @@
   img {
     height: 150px;
     max-width: 80%;
-  };
+  }
+
+  ;
+
+
+
 
 
 }

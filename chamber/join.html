@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alvaro Cerpa Baron">
+  <meta name="description" content="BizConnect Hommepage ">
+  <title>Directory Page</title>
+  <link href="styles/join.css" rel="stylesheet">
+  <link href="styles/join-larger.css" rel="stylesheet">
+  <script src="java/join.js" defer></script>
+
+  <link rel="icon" href="../images/myicon.ico" type="image/x-icon" />
+  <meta property="og:title" content=" Biz Connect Homepage">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="BizConnect homepage">
+  <meta property="og:image" content="https://edifica.com.pe/blog/wp-content/uploads/historia-san-isidro.jpg">
+  <meta property="og:url" content="https://fierilyheavenlyeagle.github.io/wdd231/chamber/index">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+  <header>
+    <img src="../images/myicon.ico" width="34" height="40">
+    <h1 class="BizConnect">BizConnect</h1>
+    <button id="mybutton">&#9776;</button>
+    <h4 class="chamber">Chamber of Commerce</h4>s
+  </header>
+  <nav>
+    <ul class="animateme" id="navpriority">
+      <li id="navelement"><a href="https://fierilyheavenlyeagle.github.io/wdd231/chamber/index">Home</a></li>
+      <li id="navelement"><a href="https://fierilyheavenlyeagle.github.io/wdd231/chamber/directory">Directory</a></li>
+      <li id="join"><a href="https://fierilyheavenlyeagle.github.io/wdd231/chamber/join">Join</a></li>
+      <li id="descover"><a href="#">Discover</a></li>
+    </ul>
+  </nav>
+
+  <body>
+    <main>
+      <form method="GET" action="thanksJoin.html" class="joinForm">
+        <h1 class="join">Join</h1>
+        <div class="data">
+          <h3 for="title" class="dataTitle">Membership Application Form</h3>
+          <label>First Name <input type="text" name="first" required autocomplete="given-name"
+              title="Fist Name"></label>
+          <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Last Name"></label>
+          <label>Title <input type="text" name="org-title" required autocomplete="organization-title"
+              pattern="^[A-Za-z-\s]{7,}$"></label>
+          <label>Email <input type="email" name="email" required placeholder="felipe@gmail.com" title="Email"
+              autocomplete="email"></label>
+          <label>Cell Phone <input type="tel" name="phone" autocomplete="tel" title="A phone Number with dashes"
+              placeholder="+51-910-789-258"></label>
+
+          <label>Organization <input type="text" name="Organization" title="Please enter the organization's name."
+              autocomplete="organization" required>
+            <label>Business Description <textarea type="text" title="What is the interest field of your organization?"
+                name="description" rows="3" cols="24"></textarea></label>
+        </div>
+        <div class="select">
+          <h3 class="selectTitle">Membership Level</h3>
+          <label><input type="radio" name="Membership" value="Non Profit Membership" checked> Non Profit
+            Membership</label>
+          <label><input type="radio" name="Membership" value="Bronze Membership"> Bronze Membership</label>
+          <label><input type="radio" name="Membership" value="Silver Membership"> Silver Membership</label>
+          <label><input type="radio" name="Membership" value="Gold Membership"> Gold Membership</label>
+          <button type="submit"> Join BizConnect </button>
+        </div>
+      </form>
+      <section>
+        <h1 class="membershipHeader">Membership Levels</h1>
+        <div class="membershipLevel">
+          <h4 class="levels">Non Profit Membership Level</h4>
+          <button class="learn" id="openProfit">Learn More</button>
+        </div>
+        <div class="membershipLevel">
+          <h4 class="levels">Bronze Membership Level</h4>
+          <button class="learn" id="openBronze">Learn More</button>
+        </div>
+        <div class="membershipLevel">
+          <h4 class="levels">Silver Membership Level</h4>
+          <button class="learn" id="openSilver">Learn More</button>
+        </div>
+        <div class="membershipLevel">
+          <h4 class="levels">Gold Membership Level</h4>
+          <button class="learn" id="openGold">Learn More</button>
+        </div>
+      </section>
+    </main>
+    <dialog class="nonProfitModal" id="profitModal">
+      <button class="close-button-profit">❌</button>
+      <header class="modalHeader">
+        <h1>Non Profit Membership</h1>
+      </header>
+      <h2>Description</h2>
+      <h3>The Non-Profit Membership Level is designed for individuals and organizations committed to supporting our
+        mission. Members enjoy essential benefits that keep them informed and engaged with our initiatives.</h3>
+      <h2>Benefits</h2>
+      <li>Access to newsletters and updates</li>
+      <li>Participation in community events</li>
+      <li>Basic volunteering opportunities</li>
+    </dialog>
+    <dialog class="bronzeModal" id="bronzeModal">
+      <button class="close-button-bronze">❌</button>
+      <header class="modalHeader">
+        <h1>Non Profit Membership</h1>
+      </header>
+      <h2>Description</h2>
+      <h3>The Bronze Membership is ideal for individuals or organizations looking to make a difference at a low cost.
+        Members receive access to basic resources and updates from the nonprofit, enabling them to stay informed and
+        engaged.</h3>
+      <h2>Benefits</h2>
+      <li>Access to newsletters and updates</li>
+      <li>Participation in community events</li>
+      <li>Basic volunteering opportunities</li>
+    </dialog>
+    <dialog class="silverModal" id="silverModal">
+      <button class="close-button-silver">❌</button>
+      <header class="modalHeader">
+        <h1>Silver Membership</h1>
+      </header>
+      <h2>Description</h2>
+      <h3>Silver Membership offers enhanced benefits for more active participants. It includes all Bronze benefits,
+        plus
+        access to training workshops and discounts on events, promoting skill development and networking.</h3>
+      <h2>Benefits</h2>
+      <li>All Bronze benefits</li>
+      <li>Access to training workshops</li>
+      <li>Discounts on select events</li>
+    </dialog>
+    <dialog class="goldModal" id="goldModal">
+      <button class="close-button-gold">❌</button>
+      <header class="modalHeader">
+        <h1>Gold Membership</h1>
+      </header>
+      <h2>Description</h2>
+      <h3>Gold Membership provides premium access and exclusive opportunities for those deeply invested in the
+        nonprofit's mission. It includes all Silver benefits, priority access to events, and special recognition on
+        the
+        nonprofit's website.</h3>
+      <h2>Benefits</h2>
+      <li>All Silver benefits</li>
+      <li>Priority access to events</li>
+      <li>Special recognition on the website</li>
+    </dialog>
+    <footer>
+      <ul class="foot">
+        <li class="one">
+          <h3>BizConnect Chamber of Commerce</h3>
+          <h4>456 Commerce St</h4>
+          <h4>Peru, Lima 15088</h4>
+          <h4>contact@bizconnectchamber.pe</h4>
+          <h4>+51 1 987 5435</h4>
+        </li>
+        <li class="socialMedia">
+          <ion-icon name="logo-youtube"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </li>
+        <li class="dos">
+          <h4>WDD231 Class Project</h4>
+          <h4>Alvaro Cerpa Baron</h4>
+          <p class="footer-p">
+            @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+          </p>
+          <p class="modification">
+            <span id="lastModified"></span>
+          </p>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+</body>

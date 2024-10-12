@@ -135,6 +135,17 @@
     align-items: center
   }
 
+  button {
+    border: 10px solid #d18356;
+    background-color: #d18356;
+    border-radius: 6px;
+    margin: 0 10px 0 10px;
+  }
+
+  .close-button {
+    background-color: wheat;
+  }
+
 
   .courses li {
     border: 10px solid #d18356;
@@ -188,5 +199,39 @@
   .modification {
     font-size: 16px;
     color: #66d39e;
+  }
+
+  .animateName {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 170% 1;
+    }
+
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+  .me {
+    animation-duration: 3.9s;
+    animation-name: opacity;
+  }
+
+  @keyframes opacity {
+    0% {
+      opacity: 0;
+      display: none;
+    }
+
+    100% {
+      opacity: 1;
+      display: block;
+    }
   }
 }
