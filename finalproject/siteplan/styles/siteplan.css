@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffe3bb;
+  color: #0856a0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #ffe3bb;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  justify-content: space-around;
+}
+
+.header,
+.footer {
+  background-color: #ffbd3d;
+  font-family: 'Playwrite MX', cursive;
+}
+
+.nav {
+  background-color: #ffd69b;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form {
+  padding: 20px;
+}
+
+.fieldset {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.main {
+  height: 200px;
+  background-color: #eeeeee;
+}
+
+.footer {
+  height: 50px;
+  text-align: center;
+}
+
+.intro {
+  padding: 20px;
+  background-color: #ffe3bb;
+  color: #0856a0;
+}
+
+.news {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #000;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 100px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.new {
+  background-color: #ffd69b;
+  border: solid black thin;
+}
