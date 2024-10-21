@@ -20,6 +20,13 @@
     padding-bottom: 0.2rem;
   }
 
+  .icon {
+    justify-self: end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+
   #navelement {
     background-color: #d5edf9;
     display: block;

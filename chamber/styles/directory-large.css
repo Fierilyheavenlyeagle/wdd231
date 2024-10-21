@@ -107,6 +107,13 @@
     padding-bottom: 0.2rem;
   }
 
+  .icon {
+    justify-self: end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+
   .foot {
     display: flex;
     justify-content: space-around;

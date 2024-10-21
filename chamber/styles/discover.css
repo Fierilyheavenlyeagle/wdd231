@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 400px;
+  justify-content: center;
+
+}
+
+.competition {
+  margin: 50px 0 50px 0;
+  background-color: rgba(0, 0, 0, 0.13);
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  display: block;
+  border-radius: 0;
+}
+
+;
+
+.competitioncaption {
+  margin: 0 0 20px 0;
+}
+
+
+
+#psidebar {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11pt;
+
+}
+
+.competitionimg {
+  margin: 15px 0 5px 25px;
+}
+
+#calendar {
+  font-size: 10pt;
+}
+
+#sidebar {
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+.award {
+  background-color: rgba(0, 0, 0, 0.13);
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 18px;
+}
+
+.sidebartitles {
+  border-bottom: solid black 1px;
+  padding-bottom: 5px;
+
+}
+
+.sidebartitles:hover {
+  text-decoration: underline
+}
+
+;
+
+.hoverover {
+  transition: filter 0.3s ease;
+  display: inline-block;
+}
+
+.hoverover:hover {
+  filter: brightness(75%);
+}
+
+figure
+{
+  margin-left: 10px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #daeffc;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+
+#image {
+  max-width: 250px;
+  max-height: 180px;
+  margin: 10px 0 0 27px;
+}
+
+figcaption {
+  margin: 9px 0 9px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11pt;
+  margin-top: 18px;
+}
+
+.days {
+  margin-top: 18px;
+
+}
+
+/*----------------------*/
+
+
+#mybutton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  justify-self: start;
+}
+
+
+header {
+  background-color: rgba(99, 191, 228, 0.274);
+  padding-bottom: 0.2rem;
+  display: grid;
+  grid-template-columns: 55px auto 44px;
+  grid-template-rows: auto 29px;
+  align-items: end;
+}
+
+.chamber {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  grid-column: 2/3;
+  align-self: start;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.BizConnect {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #335ada;
+  margin: 0 0 0 0;
+  font-size: 26pt;
+  padding-bottom: 0;
+}
+
+
+ul {
+  padding-left: 0px;
+  display: grid;
+}
+
+ul.animateme.close {
+  display: none;
+}
+
+#navelement {
+  background-color: #d5edf9;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+  border: 0;
+}
+
+#descover {
+  background-color: #d5edf9;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+  border: 0;
+}
+
+#discover {
+  background-color: #afd2fac0;
+  display: block;
+  text-align: center;
+  unicode-bidi: normal;
+  padding: 0.5rem;
+  border: 0;
+}
+
+#navelement:hover {
+  background-color: #405cb0;
+
+}
+
+#descover:hover {
+  background-color: #405cb0;
+}
+
+#home:hover {
+  background-color: #405cb0;
+
+}
+
+
+
+.foot {
+  display: block;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background-color: #d5edf9;
+  list-style: none;
+  padding-top: 14px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 23px;
+  font-size: 52px;
+}
+
+
+h3 {
+  font-size: 12pt;
+}
+
+
+h4 {
+  margin-top: 20px
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alvaro Cerpa Baron">
+  <meta name="description" content="BizConnect Discover Page">
+  <title>Discover Page</title>
+  <link href="styles/discover.css" rel="stylesheet">
+  <link href="styles/discover-large.css" rel="stylesheet">
+  <script src="java/discover.js" defer></script>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css' rel='stylesheet' />
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js'></script>
+  <link rel="icon" href="../images/myicon.ico" type="image/x-icon" />
+  <meta property="og:title" content=" Biz Connect Discover">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="BizConnect Discover Page">
+  <meta property="og:image" content="https://edifica.com.pe/blog/wp-content/uploads/historia-san-isidro.jpg">
+  <meta property="og:url" content="https://fierilyheavenlyeagle.github.io/wdd231/chamber/index">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+  <header>
+    <img class="icon" src="../images/myicon.ico" width="34" height="40">
+    <h1 class="BizConnect">BizConnect</h1>
+    <button id="mybutton">&#9776;</button>
+    <h4 class="chamber">Chamber of Commerce</h4>
+  </header>
+  <nav>
+    <ul class="animateme" id="navpriority">
+      <li id="navelement"><a href="https://fierilyheavenlyeagle.github.io/wdd231/chamber/index">Home</a></li>
+      <li id="navelement"><a href="https://fierilyheavenlyeagle.github.io/wdd231/chamber/directory">Directory</a></li>
+      <li id="descover"><a href="https://fierilyheavenlyeagle.github.io/wdd231/chamber/join">Join</a></li>
+      <li id="discover"><a href="https://fierilyheavenlyeagle.github.io/wdd231/chamber/discover">Discover</a></li>
+    </ul>
+  </nav>
+
+  <body>
+    <main>
+      <section id="sidebar">
+        <div class="award">
+          <h2 class="sidebartitles">Prime Economic Award 2024</h2>
+          <p id="psidebar">The Prime Economic Award recognizes a business that has made a significant contribution to
+            local economic
+            growth. This award celebrates companies that have shown exceptional performance in driving innovation,
+            creating jobs, and fostering sustainable development in the community.</p>
+        </div>
+        <figure class="competition">
+          <h2 class="sidebartitles">Worldwide chamber competition</h2>
+          <figcaption class="competitioncaption" id="psidebar">BizConnect Chamber is proud to participate in the
+            Worldwide Chamber
+            Competition, where the best
+            chambers
+            globally compete to showcase their achievements in fostering business growth, innovation, and community
+            development. This event highlights BizConnect’s ongoing commitment to excellence.
+          </figcaption>
+          <img class="competitionimg" loading="lazy" src="../images/competition.jpeg" alt="Worldwide Competition"
+            width="280" height="200">
+        </figure>
+        <div>
+          <div id='calendar'></div>
+        </div>
+        <div class="days">
+        <span class="numberofDays"></span>
+        </div>
+      </section>
+      <section>
+        <figure>
+          <img id=image class='hoverover'loading="lazy" src="../images/lima.jpg" alt="Lima-Peru" width="450" height="300">
+          <figcaption>Lima, the vibrant capital of Peru, is known for its rich colonial history, coastal beauty, and
+            bustling urban life. Nestled between the Pacific Ocean and the foothills of the Andes, the city boasts
+            stunning views, a world-renowned food scene, and iconic landmarks like the Plaza Mayor and the Huaca
+            Pucllana
+            ruins.</figcaption>
+        </figure>
+        <figure>
+          <img id= image class='hoverover' loading="lazy" src="../images/empresarios.png" alt="Lima Chamber Commerce" width="450" height="300">
+          <figcaption>The Lima Chamber of Commerce, established in 1888, is one of Peru's most influential business
+            organizations. It serves as a hub for promoting economic growth, supporting local and international
+            businesses, and fostering innovation in trade and commerce. With a strong commitment to professional
+            development, advocacy, and networking, the Chamber plays a vital role in shaping the business landscape of
+            Lima and Peru at large.</figcaption>
+        </figure>
+        <figure>
+          <img id= image class='hoverover' loading="lazy" src="../images/baile.jpg" alt="Traditional dances" width="450" height="300">
+          <figcaption>The Diablada is a vibrant and theatrical traditional dance from Peru, most famously performed
+            during the Virgen de la Candelaria festival in Puno. Known as the 'Dance of the Devils,' it features
+            colorful costumes with elaborate devil masks, symbolizing the battle between good and evil. With energetic
+            choreography and deep religious and cultural significance, the Diablada is a powerful expression of Andean
+            heritage, blending indigenous and colonial influences.</figcaption>
+        </figure>
+        <figure>
+          <img id= image class='hoverover' loading="lazy" src="../images/machu.jpg" alt="Machu Picchu" width="450" height="300">
+          <figcaption>Machu Picchu, the ancient Incan citadel nestled high in the Andes Mountains of Peru, is one of the
+            most iconic archaeological sites in the world. Built in the 15th century and hidden from outsiders until its
+            rediscovery in 1911, this UNESCO World Heritage Site showcases stunning stone architecture, terraced fields,
+            and breathtaking views of the surrounding valleys and peaks. A symbol of the Incan Empire's ingenuity, Machu
+            Picchu remains a must-see destination for history enthusiasts and nature lovers alike.</figcaption>
+        </figure>
+        <figure>
+          <img id= image class='hoverover' loading="lazy" src="../images/sanisidro.jpg" alt="San Isidro" width="450" height="300">
+          <figcaption>San Isidro, a prestigious district in Lima, Peru, is a key driver of the nation's economy. As the
+            country's financial and business center, it is home to major banks, multinational corporations, and
+            embassies. The district combines modern skyscrapers with historical sites and lush parks like the Bosque El
+            Olivar. San Isidro plays a pivotal role in shaping Peru’s economic landscape, attracting both local and
+            international investment, making it a dynamic hub for commerce and innovation.</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="foot">
+        <li class="one">
+          <h3>BizConnect Chamber of Commerce</h3>
+          <h4>456 Commerce St</h4>
+          <h4>Peru, Lima 15088</h4>
+          <h4>contact@bizconnectchamber.pe</h4>
+          <h4>+51 1 987 5435</h4>
+        </li>
+        <li class="socialMedia">
+          <ion-icon name="logo-youtube"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </li>
+        <li class="dos">
+          <h4>WDD231 Class Project</h4>
+          <h4>Alvaro Cerpa Baron</h4>
+          <p class="footer-p">
+            @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+          </p>
+          <p class="modification">
+            <span id="lastModified"></span>
+          </p>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+</body>

@@ -1,40 +1,99 @@
 @media only screen and (min-width:40rem) {
-  .membershipLevel {
-    animation-duration: 2s;
-    animation-name: slideIn, opacity;
-    animation-fill-mode: forwards;
-    background-color: #afdcf3;
+  * {
+    box-sizing: border-box;
   }
 
-  @keyframes slideIn {
-    from {
-      translate: 0 120vw;
-      scale: 10% 1;
-    }
-
-    to {
-      translate: 0 0;
-      scale: 100% 1;
-    }
-  }
-
-  @keyframes opacity {
-    0% {
-      opacity: 0;
-      display: none;
-    }
-
-    100% {
-      opacity: 1;
-      display: block
-    }
+  html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
   }
 
   main {
     display: grid;
-    grid-template-columns: auto 420px;
-    justify-content: space-evenly;
+    grid-template-columns: 312px auto;
+    margin: 0 0 0 17px;
   }
+
+  .competition {
+    margin: 0px 0 30px 0;
+    background-color: transparent;
+  }
+
+  .award {
+    background-color: transparent;
+  }
+
+
+  .competitioncaption {
+    margin: 0 0 0px 0;
+  }
+
+
+  #psidebar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+
+  }
+
+  .competitionimg {
+    margin: 0;
+    max-width: 245px;
+    max-height: 210px;
+    margin-top: 22px;
+  }
+
+  #calendar {
+    font-size: 9pt;
+    max-width: 250px;
+    margin-left: 14px;
+  }
+
+  #sidebar {
+    background-color: #e2f4fd;
+    padding-left: 10px;
+    padding-right: 10px
+  }
+
+  .sidebartitles {
+    border-bottom: solid black 1px;
+    padding-bottom: 5px;
+
+  }
+
+  .sidebartitles:hover {
+    text-decoration: underline
+  }
+
+  #image
+  {
+    margin-top: 14px;
+  }
+
+  .hoverover {
+    transition: filter 0.3s ease;
+    display: inline-block;
+  }
+
+  .hoverover:hover {
+    filter: brightness(75%);
+  }
+
+  figcaption {
+    margin: 13px 0 12px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+  }
+
+  .days {
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  figure
+  {
+    background-color: #d8d8d8a8;
+  }
+
 
   /*-----------------------*/
 
@@ -55,12 +114,12 @@
     padding-bottom: 0.2rem;
   }
 
-  .icon {
+  .icon
+  {
     justify-self: end;
     margin-right: 10px;
     margin-bottom: 10px;
   }
-
 
   #navelement {
     background-color: #d5edf9;
@@ -85,7 +144,7 @@
     background-color: #405cb0;
   }
 
-  #home:hover {
+  #discover:hover {
     background-color: #405cb0;
 
   }
