@@ -283,7 +283,6 @@ async function currentWeather() {
   } catch (error) {
     console.log(error);
   }
-
 }
 
 currentWeather();

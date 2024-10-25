@@ -1,0 +1,143 @@
+/*<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las Brisas Club">
+    <meta name="author" content="Alvaro C. Baron">
+    <title>Document</title>
+    <link href="styles/homepage-large.css" rel="stylesheet">
+    <link href="styles/homepage.css" rel="stylesheet">
+    <script src="js/homepage.js" defer></script>
+    <link rel="icon" href="../images/communityicon.png" type="image/x-icon" />
+    <meta property="og:title" content="Las Brisas Club Homepage">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Las Brisas Club Homepage">
+    <meta property="og:image" content="https://peru.viajardo.com/wp-content/uploads/2024/04/CostaVerde.jpg">
+    <meta property="og:url" content="https://fierilyheavenlyeagle.github.io/wdd231/finalproject/homepage">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+</head>
+<header>
+  <div class="headerSection">
+    <img src="../images/communityicon.png" alt="icon" class='icon'>
+    <h1 class="title">Las Brisas Club</h1>
+    <button id="mybutton">&#9776;</button>
+  </div>
+  <nav>
+    <a>Home</a>
+    <a>Activities</a>
+    <a>Store</a>
+    <a>News</a>
+  </nav>
+</header>
+<main>
+
+</main>
+
+<body>
+
+</body>
+
+<footer id="footer">
+  <ul class="foot">
+    <li class="one">
+      <h3>BizConnect Chamber of Commerce</h3>
+      <h4>456 Commerce St</h4>
+      <h4>Peru, Lima 15088</h4>
+      <h4>contact@bizconnectchamber.pe</h4>
+      <h4>+51 1 987 5435</h4>
+    </li>
+    <li class="socialMedia">
+      <ion-icon name="logo-youtube"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </li>
+    <li class="dos">
+      <h4>WDD231 Class Project</h4>
+      <h4>Alvaro Cerpa Baron</h4>
+      <p class="footer-p">
+        @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+      </p>
+      <p class="modification">
+        <span id="lastModified"></span>
+      </p>
+    </ul>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+</html>
+
+---style---
+
+.icon {
+  max-width: 55px;
+  justify-self: end;
+}
+
+.headerSection {
+  display: grid;
+  grid-template-columns: 80px auto 80px;
+  align-items: center;
+  background-color: #e99b00;
+  color: aliceblue;
+  font-family: "Pacifico", cursive;
+}
+
+#mybutton {
+  margin-right: 50px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 335px 335px 335px 335px;
+  justify-content: space-around;
+  text-align: center;
+  gap: 0px;
+}
+
+a {
+  background-color: rgb(253, 211, 134);
+}
+
+.socialMedia {
+  font-size: 52px;
+  align-self: center;
+}
+
+.foot {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  list-style-type: none;
+  background-color: #e99b00;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+li.one
+{
+  text-align: left;
+  margin-left: 45px;
+}
+
+
+---javascript---
+
+
+const year = document.querySelector('#year');
+const lastMod = document.querySelector('#lastModified');
+
+const today = new Date();
+const modified = new Date(document.lastModified)
+
+year.innerHTML = `<span class="year1"> ${today.getFullYear()}</span>`
+lastMod.innerHTML = `Last Modification: <span class="mod1">${modified}</span>`
+*/

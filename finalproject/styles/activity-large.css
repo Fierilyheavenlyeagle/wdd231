@@ -1,0 +1,79 @@
+@media only screen and (min-width:40rem) {
+  .icon {
+    max-width: 55px;
+    justify-self: end;
+  }
+
+  .headerSection {
+    display: grid;
+    grid-template-columns: 80px auto 80px;
+    align-items: center;
+    background-color: #e99b00;
+    color: aliceblue;
+    font-family: "Pacifico", cursive;
+  }
+
+  #mybutton {
+    margin-right: 50px;
+    display: none;
+  }
+
+  .animateme {
+    display: grid;
+    grid-template-columns: 331px 331px 331px 331px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+
+  
+  #largeUl{
+    display: grid;
+    grid-template-columns: 331px 331px 331px 331px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+
+  a {
+    background-color: rgb(253, 211, 134);
+  }
+
+
+  .socialMedia {
+    font-size: 52px;
+    align-self: center;
+  }
+
+  #footLarge {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    list-style-type: none;
+    background-color: #e99b00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+  }
+
+  #oneLarge
+  {
+    margin-left: 100px
+  };
+  
+
+  li.one {
+    text-align: left;
+    margin-left: 45px;
+  }
+
+
+  h4 {
+    grid-column: 2/3;
+  }
+
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las Brisas Club">
+    <meta name="author" content="Alvaro C. Baron">
+    <title>Las Brisas</title>
+    <link href="styles/homepage.css" rel="stylesheet">
+    <link href="styles/homepage-large.css" rel="stylesheet">
+    <script src="js/homepage.js" defer></script>
+    <link rel="icon" href="../images/communityicon.png" type="image/x-icon" />
+    <meta property="og:title" content="Las Brisas Club Homepage">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Las Brisas Club Homepage">
+    <meta property="og:image" content="https://peru.viajardo.com/wp-content/uploads/2024/04/CostaVerde.jpg">
+    <meta property="og:url" content="https://fierilyheavenlyeagle.github.io/wdd231/finalproject/homepage">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet">
+  </head>
+</head>
+<header>
+  <div class="headerSection">
+    <img src="../images/communityicon.png" alt="icon" class='icon'>
+    <h1 class="title">Las Brisas Club</h1>
+    <button id="mybutton">&#9776;</button>
+  </div>
+  <nav>
+    <ul id="largeUl" class="animateme">
+      <a class="wayFinding">Home</a>
+      <a>Activities</a>
+      <a>Store</a>
+      <a>News</a>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div class="img">
+    <img id="lasBrisasImg" src="../images/lasbrisas-small.jpg" width="470">
+    <div class="signUpGrid">
+      <h3 id="questionLarge" class="question">Live in Las Brisas?</h3>
+      <h1 id="signUp" class="formHeader">Sign up!</h1>
+      <form method="GET" action="thanks.html" class="joinForm" id="formLarge">
+        <label id="firstName">First Name <input type="text" name="first" required autocomplete="given-name"
+            title="Your First Name" id="nameLarge"></label>
+        <label id="lastName">Last Name<input type="text" name="last" required autocomplete="family-name" title="Your Last Name"
+            id="nameLarge" ></label>
+        <label class="emailLabel">Email<input type="email" name="email" required autocomplete="email" title="Your Email"
+            placeholder="john.davies2001@gmail.com" id="emailLarge"></label>
+        <label class="passwordLabel">Create Password<input type="password" name="password" required
+            title="Create Password" class="password" id="inputLarge"></label>
+        <label class="reenterLabel">Re-enter Password<input type="password" name="password" required
+            title="Re-enter password" class="reenter" id="inputLarge"></label>
+        <input type="submit" value="Sign Up">
+      </form>
+    </div>
+    <div id='weatherLarge' class="weatherSection">
+      <section class="weather">
+        <header class="weatherHeader">Current Weather</header>
+        <div class="weatherData"></div>
+      </section>
+      <section id="forecastLarge" class="forecast">
+        <header class="forecastHeader">Weather Forecast</header>
+        <div class="forecastData"></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<body>
+
+</body>
+
+<footer id="footer">
+  <ul class="foot" id="footLarge">
+    <li class="one" id="oneLarge">
+      <h3>Las Brisas Club</h3>
+      <h4>310 Gertrudis St</h4>
+      <h4>Peru, Lima 15088</h4>
+      <h4>contact@lasbrisasclub.pe</h4>
+      <h4>+51 1 987 5435</h4>
+    </li>
+    <li class="socialMedia">
+      <ion-icon name="logo-youtube"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </li>
+    <li class="dos">
+      <h4>WDD231 Class Project</h4>
+      <h4>Alvaro Cerpa Baron</h4>
+      <p class="footer-p">
+        @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+      </p>
+      <p class="modification">
+        <span id="lastModified"></span>
+      </p>
+  </ul>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+</html>
