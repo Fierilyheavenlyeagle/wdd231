@@ -115,17 +115,6 @@ const displayBusinesses = (businesses) => {
 
 }
 
-getCompaniesData();
-
-const hamburger = document.querySelector('#mybutton')
-const animateme = document.querySelector('.animateme');
-
-
-hamburger.addEventListener('click', () => {
-  animateme.classList.toggle('open');
-  hamburger.classList.toggle('open');
-})
-
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
@@ -142,6 +131,18 @@ function showList() {
   display.classList.add("list");
   display.classList.remove("grid");
 }
+
+
+getCompaniesData();
+
+const hamburger = document.querySelector('#mybutton')
+const animateme = document.querySelector('.animateme');
+
+
+hamburger.addEventListener('click', () => {
+  animateme.classList.toggle('open');
+  hamburger.classList.toggle('open');
+})
 
 const year = document.querySelector("#year");
 const lastMod = document.querySelector("#lastModified");

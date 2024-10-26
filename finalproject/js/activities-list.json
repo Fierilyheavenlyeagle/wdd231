@@ -1,0 +1,77 @@
+{
+  "activities": [
+    {
+      "name": "Hinkana Familiar",
+      "description": "Zona de Tipis, visita y alimenta a nuestros animalitos, juegos divertidos y taller de manualidades.",
+      "date": "15/10/24",
+      "time": "10:00 H",
+      "address": "Av. El Sol 123, San Isidro, Lima, Peru",
+      "contact": "+51 1 234 5678",
+      "image": "https://scontent.flim33-1.fna.fbcdn.net/v/t39.30808-6/278574261_534791998037039_8566279031511257583_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF0P7MhE-ajcS21SZyj00QdpgYriS-r1qCmBiuJL6vWoIqNCKEzOCP9NURUre0YarTKQsJ-M7ZznWI-cY9DLdcq&_nc_ohc=SouVvUAp_A0Q7kNvgEwEVp0&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&_nc_gid=ApA36TU3o2TUNp8xZEh2FFz&oh=00_AYB2J5HYkp0epW7cRTz8BpplIF4WLQudLhZnPp7mp01d9w&oe=6722EE20"
+    },
+    {
+      "name": "Feria Artesanal",
+      "description": "Exposición y venta de productos artesanales de diferentes regiones del Perú.",
+      "date": "16/10/24",
+      "time": "09:00 H",
+      "address": "Parque Kennedy, Miraflores, Lima, Peru",
+      "contact": "+51 1 567 8901"
+    },
+    {
+      "name": "Concierto de Música Andina",
+      "description": "Disfruta de un concierto en vivo con los mejores exponentes de la música andina.",
+      "date": "17/10/24",
+      "time": "19:00 H",
+      "address": "Teatro Municipal, Cercado de Lima, Lima, Peru",
+      "contact": "+51 1 345 6789"
+    },
+    {
+      "name": "Festival Gastronómico",
+      "description": "Degusta platos típicos y disfruta de demostraciones de cocina en vivo.",
+      "date": "18/10/24",
+      "time": "12:00 H",
+      "address": "Campo de Marte, Jesús María, Lima, Peru",
+      "contact": "+51 1 234 8910"
+    },
+    {
+      "name": "Exposición de Arte Contemporáneo",
+      "description": "Muestra de obras de artistas contemporáneos peruanos.",
+      "date": "19/10/24",
+      "time": "10:00 H",
+      "address": "Museo de Arte de Lima, Cercado de Lima, Lima, Peru",
+      "contact": "+51 1 345 6789"
+    },
+    {
+      "name": "Charla sobre Historia del Perú",
+      "description": "Conferencia sobre los eventos históricos más importantes del Perú.",
+      "date": "20/10/24",
+      "time": "15:00 H",
+      "address": "Centro Cultural PUCP, San Miguel, Lima, Peru",
+      "contact": "+51 1 234 5678"
+    },
+    {
+      "name": "Taller de Cerámica",
+      "description": "Aprende a moldear y pintar piezas de cerámica con técnicas tradicionales.",
+      "date": "21/10/24",
+      "time": "14:00 H",
+      "address": "Centro Cultural Ricardo Palma, Miraflores, Lima, Peru",
+      "contact": "+51 1 567 4321"
+    },
+    {
+      "name": "Caminata Ecológica",
+      "description": "Recorrido guiado por senderos naturales para apreciar la flora y fauna local.",
+      "date": "22/10/24",
+      "time": "07:00 H",
+      "address": "Parque Ecológico Loma Amarilla, Surco, Lima, Peru",
+      "contact": "+51 1 345 6789"
+    },
+    {
+      "name": "Curso de Fotografía de Naturaleza",
+      "description": "Curso práctico para aprender técnicas de fotografía en espacios naturales.",
+      "date": "23/10/24",
+      "time": "09:00 H",
+      "address": "Parque de las Leyendas, San Miguel, Lima, Peru",
+      "contact": "+51 1 876 5432"
+    }
+  ]
+}
