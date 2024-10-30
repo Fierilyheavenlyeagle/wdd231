@@ -125,15 +125,6 @@ const displayBusinesses = (activity) => {
     cards.appendChild(card);
   });
 
-  button.addEventListener('click', (event) => {
-    const reenter = repeatPasswordInput.value;
-    const password = passwordInput.value;
-    if (reenter !== password) {
-      event.preventDefault();
-    }
-  });
-  
-
   const registerButtons = document.querySelectorAll('.registerButton');
   registerButtons.forEach(button => {
     button.addEventListener('click', (event) => {
