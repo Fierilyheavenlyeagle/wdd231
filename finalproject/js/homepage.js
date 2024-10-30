@@ -147,3 +147,30 @@ async function currentWeather() {
 }
 
 currentWeather();
+
+/*****************************/
+
+const passwordInput = document.querySelector('#inputLarge');
+
+const repeatPasswordInput = document.querySelector('.reenter');
+
+const matchLabel = document.querySelector('.matchLabel');
+
+const button = document.querySelector('.signUp');
+
+button.addEventListener('click', (event) => {
+  const reenter = repeatPasswordInput.value;
+  const password = passwordInput.value;
+  if (reenter !== password) {
+    event.preventDefault();
+    matchLabel.innerHTML = 'Paswords do not match';
+    matchLabel.classList.toggle('openMatch')
+  }
+  else {
+    matchLabel.classList.remove('openMatch')
+    matchLabel.innerHTML = '';
+  }
+});
+
+
+

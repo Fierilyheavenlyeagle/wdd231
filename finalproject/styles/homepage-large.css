@@ -28,8 +28,8 @@
     font-size: 15px;
   }
 
-  
-  #largeUl{
+
+  #largeUl {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-content: space-around;
@@ -59,11 +59,12 @@
     font-size: 14px;
   }
 
-  #oneLarge
-  {
+  #oneLarge {
     margin-left: 100px
-  };
-  
+  }
+
+  ;
+
 
   li.one {
     text-align: left;
@@ -91,7 +92,7 @@
   .signUpGrid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 200px auto;
+    grid-template-rows: 30px auto;
   }
 
   #questionLarge {
@@ -105,14 +106,14 @@
     color: 1d3557;
     text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
     align-self: flex-end;
-    top: 350px;
+    top: 315px;
     left: 360px;
   }
 
   #signUp {
     grid-column: 1;
     grid-row: 2;
-    margin: 0px 0 0 220px;
+    margin: 145px 0 0 220px;
     font-size: 58pt;
     font-family: "Pacifico", cursive;
     font-weight: 500;
@@ -125,10 +126,12 @@
       25px 25px 0px #d06300;
   }
 
+
+
   #formLarge {
     grid-column: 2;
-    grid-row: 1 / span 2;
-    margin-top: 82px;
+    grid-row: 2/ span 2;
+    margin-top: 0px;
     background-color: hsla(0, 4%, 82%, 0.6);
     max-width: 350px;
     padding: 30px;
@@ -147,9 +150,13 @@
     font-size: 11pt;
   }
 
-  #lastName
-  {
+  #firstName {
+    grid-row: 2;
+  }
+
+  #lastName {
     margin-top: 10px;
+    grid-row: 2;
   }
 
   input {
@@ -159,32 +166,32 @@
   }
 
   .emailLabel {
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1 / span 2;
   }
 
   .passwordLabel {
-    grid-row: 3;
-    grid-column: 1/ span 2;
-  }
-
-  .reenterLabel {
     grid-row: 4;
     grid-column: 1/ span 2;
   }
 
-  input[type="submit"] {
+  .reenterLabel {
     grid-row: 5;
+    grid-column: 1/ span 2;
+  }
+
+  input[type="submit"] {
+    grid-row: 6;
     grid-column: 1/ span 2;
     margin-top: 10px;
     border-radius: 4px;
     background-image: linear-gradient(#000f1b, #3e4041);
     color: #e5e5e5;
+    padding-inline: 90px;
   }
 
-  #inputLarge{
-    padding-inline: 105px
-    ;
+  #inputLarge {
+    padding-inline: 105px;
   }
 
   #nameLarge {
@@ -194,15 +201,14 @@
     padding-left: 2px;
   }
 
-  #emailLarge
-  {
+  #emailLarge {
     padding-inline: 105px;
   }
 
   #weatherLarge {
     display: grid;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 250px ;
+    grid-template-rows: 239px;
     justify-content: center;
     margin-top: 39px;
     gap: 100px;
@@ -255,7 +261,10 @@
     margin-top: 9px;
     font-family: "SUSE", sans-serif;
     font-weight: 200;
+    border-bottom-left-radius: 51px;
   }
+
+
 
   .forecastTitle {
     margin-left: 60px;
@@ -271,9 +280,20 @@
 
   .forecast {
     background-color: hsl(0, 0%, 90%, 0.6);
-  };
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .openMatch
+  {
+    background-color: hsl(0, 100%, 50%, 0.2);
+    border-radius: 4px;
+
+  }
+
+  ;
 
 
- 
+
 
 }

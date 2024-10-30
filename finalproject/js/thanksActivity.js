@@ -43,5 +43,5 @@ displayInfo.innerHTML = `<p> Full Name:${display("first")} ${display('last')}</p
 
 console.log(elementData); console.log(elementData);
 
-
+/**************************/
 
