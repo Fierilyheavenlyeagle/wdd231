@@ -20,7 +20,7 @@
 
   .animateme {
     display: grid;
-    grid-template-columns: 331px 331px 331px 331px;
+    grid-template-columns: 33% 33% 33%;
     justify-content: space-around;
     text-align: center;
     gap: 0px;
@@ -31,7 +31,7 @@
   
   #largeUl{
     display: grid;
-    grid-template-columns: 331px 331px 331px 331px;
+    grid-template-columns: 33% 33% 33%;
     justify-content: space-around;
     text-align: center;
     gap: 0px;
