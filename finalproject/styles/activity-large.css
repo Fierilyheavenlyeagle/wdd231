@@ -32,19 +32,19 @@
   .wayFinding {
     background-color: rgba(245, 189, 77, 0.897);
   }
-  
+
   a:hover {
     background-color: #e0ac44cb;
   }
-  
+
   ul {
     padding-left: 0px;
   }
-  
+
   ul.animateme.close {
     display: none;
   }
-  
+
 
   #mybutton {
     margin-right: 50px;
@@ -282,7 +282,7 @@
     display: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-95%, -45%);
     background-color: white;
     padding: 20px;
     width: 25%;
