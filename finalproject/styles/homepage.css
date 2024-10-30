@@ -134,7 +134,7 @@ span#temperatureItself {
 .question {
   grid-column: 1;
   grid-row: 1;
-  margin: 10px 0 10px -40px;
+  margin: 0px 0 10px -40px;
   font-size: 14pt;
   font-family: "Pacifico", cursive;
   font-optical-sizing: auto;
@@ -145,7 +145,7 @@ span#temperatureItself {
   text-align: center;
   position: absolute;
   left: 190px;
-  top: 600px;
+  top: 578px;
 }
 
 .formHeader {

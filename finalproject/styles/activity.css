@@ -152,7 +152,7 @@
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
-    width: 70%;
+    width: 65%;
     border-radius: 8px;
     border: solid thin rgb(231, 224, 224);
     font-family: "SUSE", sans-serif;
@@ -160,7 +160,7 @@
 
   .close-button {
     position: absolute;
-    left: 88%;
+    left: 85%;
   }
 
   label {
@@ -173,14 +173,15 @@
     margin-top: 10px;
     border: solid thin rgb(197, 193, 193);
     border-radius: 4px;
-    padding-inline: 15%;
-    justify-self: center;
+    padding-inline: 22%;
+    justify-self: start;
     padding-top: 9px;
     padding-bottom: 9px;
   }
 
   input[type=submit] {
     margin-top: 30px;
+    justify-self: center;
   }
 
 
