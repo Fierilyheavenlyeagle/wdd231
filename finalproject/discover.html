@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las Brisas Club Discover">
+    <meta name="author" content="Alvaro C. Baron">
+    <title>Las Brisas Discover</title>
+    <link href="styles/discover.css" rel="stylesheet">
+    <link href="styles/discover-large.css" rel="stylesheet">
+    <script src="js/discover.js" defer></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css' rel='stylesheet' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js'></script>
+    <link rel="icon" href="../images/communityicon.png" type="image/x-icon" />
+    <meta property="og:title" content="Las Brisas Club Discover">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Las Brisas Club Discover">
+    <meta property="og:image" content="https://peru.viajardo.com/wp-content/uploads/2024/04/CostaVerde.jpg">
+    <meta property="og:url" content="https://fierilyheavenlyeagle.github.io/wdd231/finalproject/homepage">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet">
+  </head>
+</head>
+<header>
+  <div class="headerSection">
+    <img src="../images/communityicon.png" alt="icon" class='icon'>
+    <h1 class="title">Las Brisas Club</h1>
+    <button id="mybutton">&#9776;</button>
+  </div>
+  <nav>
+    <ul id="largeUl" class="animateme">
+      <a href="https://fierilyheavenlyeagle.github.io/wdd231/finalproject/homepage">Home</a>
+      <a href="https://fierilyheavenlyeagle.github.io/wdd231/finalproject/activity">Activities</a>
+      <a href="https://fierilyheavenlyeagle.github.io/wdd231/finalproject/discover" class="wayFinding">Discover</a>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  <main>
+    <section id="sidebar">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d410.11740552546826!2d-77.07351080498061!3d-12.063030891787708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sembed%20google%20maps!5e0!3m2!1ses!2spe!4v1730171479643!5m2!1ses!2spe"
+        width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="award">
+        <h2 class="sidebartitles"><a class="sidebarLinks"
+            href="https://juntasdenorteasur.com/listing/comisaria-pnp-palomino/">Palomino
+            Police Station</a></h2>
+        <p id="psidebar">(01) 5641290</p>
+        <h2 class="sidebartitles"><a class="sidebarLinks"
+            href="https://juntasdenorteasur.com/listing/comisaria-pnp-palomino/">
+            Medical Alert</a></h2>
+        <p id="psidebar">(01) 416 6777</p>
+        <h2 class="sidebartitles"><a class="sidebarLinks"
+            href="https://www.facebook.com/p/Policlinico-San-Ignacio-De-Loyola-100073657127253/">Medical
+            Services San Ignacio De Loyola</a></h2>
+        <p id="psidebar">(01) 7463145</p>
+        <h2 class="sidebartitles"><a class="sidebarLinks" href="https://sgonorte.bomberosperu.gob.pe/24horas">Fire
+            Department Magdalena N°
+            36</a></h2>
+        <p id="psidebar">(01) 2617139</p>
+
+      </div>
+      <div>
+        <div id='calendar'></div>
+      </div>
+      <div class="days">
+        <span class="numberofDays"></span>
+      </div>
+    </section>
+    <div id="data">
+      <section>
+        <figure id="figureRight">
+          <img id=image class='hoverover' loading="lazy" src="../images/presidente.jpg" alt="Lima-Peru" width="450"
+            height="300">
+          <figcaption>
+            <h2>Presidente del Comité de Vecinos</h2>
+            <li>Nombre completo: Juan Manuel Torres López</li>
+            <li>Años de residencia: Ha vivido en el vecindario por más de 15 años.</li>
+            <li>Elección: Elegido como presidente en marzo de 2023, con un mandato de dos años.</li>
+            <li>Motivación: Juan Manuel se ha comprometido a fortalecer la comunicación entre los vecinos y mejorar la
+              seguridad, infraestructura y el acceso a espacios recreativos en la comunidad.</li>
+            <h2>Contacto y Redes Sociales</h2>
+            <li>Correo electrónico: contacto@vecindariojuanmt.com</li>
+            <li>Número de teléfono: +51 987 654 321 (disponible para emergencias y temas urgentes)</li>
+            <li>Facebook: @VecindarioJuanMT</li>
+            <li>Instagram: @VecindarioJuanMT</li>
+            <li>Juan Manuel y su equipo están disponibles en redes para responder preguntas, sugerencias y
+              actualizaciones
+              sobre el progreso de los proyectos.</li>
+            <h3 class="reuniones">Próximas Reuniones</h3>
+            Calendario:
+            <li>Fecha: Miércoles 15 de noviembre de 2024</li>
+            <li>Hora: 7:00 p.m.</li>
+            <li>Lugar: Salón Comunal del Vecindario, Av. Las Palmas 123</li>
+            Agenda:
+            Informe sobre avances en el proyecto de iluminación pública.
+            Revisión de propuestas de mejoras para el parque principal.
+            Solicitudes y opiniones de los vecinos.
+          </figcaption>
+        </figure>
+        <figure id="figureLeft">
+          <img id=image class='hoverover' loading="lazy" src="../images/presidenta.jpg" alt="Lima Chamber Commerce"
+            width="450" height="300">
+          <figcaption>
+            <h2>Presidenta del Comité de Vecinos</h2>
+            <li>Nombre completo: María Fernanda Díaz Robles</li>
+            <li>Años de residencia: Ha vivido en el vecindario por más de 12 años.</li>
+            <li>Elección: Elegida como presidenta en abril de 2024, con un mandato de dos años.</li>
+            <li>Motivación: María Fernanda está comprometida a crear un vecindario más unido, seguro y sostenible,
+              enfocándose en mejorar las áreas verdes y fomentar actividades comunitarias para todas las edades.</li>
+            <h2>Contacto y Redes Sociales</h2>
+            <li>Correo electrónico: contacto@vecindariomfdr.com</li>
+            <li>Número de teléfono: +51 987 123 456 (disponible para emergencias y temas urgentes)</li>
+            <li>Facebook: @VecindarioMariaFD</li>
+            <li>Instagram: @VecindarioMariaFD</li>
+            <li>María Fernanda y su equipo están disponibles en redes para recibir comentarios, responder dudas,
+              y compartir actualizaciones sobre los proyectos y eventos en la comunidad.</li>
+          </figcaption>
+        </figure>
+        <figure id="figureRight">
+          <img id=image class='hoverover' loading="lazy" src="../images/presidenta_comerciantes.jpg"
+            alt="Traditional dances" width="450" height="300">
+          <figcaption>
+            <h2>Presidenta de Comerciantes</h2>
+            <li>Nombre completo: Ana María García Pérez</li>
+            <li>Años de residencia: Ha vivido en la comunidad y trabajado en el comercio local por más de 20 años.</li>
+            <li>Elección: Elegida como presidenta de la Asociación de Comerciantes en mayo de 2023, con un mandato de
+              dos
+              años.</li>
+            <li>Motivación: Ana María se ha comprometido a impulsar el crecimiento económico local, mejorar las
+              condiciones de trabajo para los comerciantes, y fortalecer el vínculo entre los negocios y la comunidad.
+            </li>
+            <h2>Contacto y Redes Sociales</h2>
+            <li>Correo electrónico: contacto@comerciantesamgp.com</li>
+            <li>Número de teléfono: +51 987 321 654 (disponible para consultas comerciales y emergencias)</li>
+            <li>Facebook: @ComerciantesAnaMG</li>
+            <li>Instagram: @ComerciantesAnaMG</li>
+            <li>Ana María y su equipo están disponibles en redes para responder dudas, recibir sugerencias, y compartir
+              actualizaciones sobre iniciativas y eventos comerciales.</li>
+          </figcaption>
+        </figure>
+        <figure id="figureLeft">
+          <img id=image class='hoverover' loading="lazy" src="../images/jefe_seguridad.jpeg" alt="Machu Picchu"
+            width="450" height="300">
+          <figcaption>
+            <h2>Jefe de Seguridad</h2>
+            <li>Nombre completo: Carlos Alberto Mendoza Sánchez</li>
+            <li>Años de experiencia: Más de 10 años trabajando en seguridad comunitaria y gestión de emergencias.</li>
+            <li>Elección: Asumió el cargo de jefe de seguridad en enero de 2024.</li>
+            <li>Motivación: Carlos Alberto está comprometido en crear un entorno seguro para todos los residentes,
+              implementando estrategias de prevención y respuesta rápida ante cualquier situación de riesgo.</li>
+            <h2>Contacto y Redes Sociales</h2>
+            <li>Correo electrónico: seguridad@vecindariocas.com</li>
+            <li>Número de teléfono: +51 987 654 987 (para reportes de seguridad y emergencias)</li>
+            <li>WhatsApp: +51 987 654 987</li>
+            <li>Carlos y su equipo están disponibles las 24 horas para atender reportes de incidentes, responder
+              consultas
+              sobre seguridad y brindar recomendaciones preventivas.</li>
+          </figcaption>
+        </figure>
+      </section>
+      <section id="institutes">
+        <figure id="institutesFigure">
+          <img id=image class='hoverover' loading="lazy" src="../images/comisaria.jpg" alt="San Isidro" width="450"
+            height="300">
+          <figcaption>
+            <h2>Comisaría de Palomino</h2>
+            Fundada en 1958, la Comisaría de Palomino es la principal agencia de seguridad pública en el distrito de
+            Palomino. Está dedicada a mantener la seguridad pública y fomentar la confianza comunitaria. Con un equipo
+            de
+            oficiales comprometidos, que incluye al Capitán <span class="names">Juan Pérez, el Teniente Ana Gómez y el
+              Oficial Ricardo López</span>,
+            la comisaría se involucra activamente con la comunidad para abordar preocupaciones y mejorar las medidas de
+            seguridad.
+          </figcaption>
+        </figure>
+        <figure id="institutesFigure">
+          <img id=image class='hoverover' loading="lazy" src="../images/bomberos.jpg" alt="San Isidro" width="450"
+            height="300">
+          <figcaption>
+            <h2>Compañía de Bomberos Voluntarios Magdalena N° 36</h2>
+            Fundada en 1945, la Compañía de Bomberos Voluntarios Magdalena N° 36 se dedica a la protección y salvaguarda
+            de la comunidad de Magdalena. Este valiente grupo de voluntarios está preparado para responder a
+            emergencias, brindar asistencia en incendios y realizar rescates. Bajo el liderazgo del Comandante <span
+              class="names">José Rodríguez, la Capitán María Fernández y el Teniente Luis Martínez</span>, la compañía
+            trabaja incansablemente para garantizar la seguridad y bienestar de los ciudadanos. Su compromiso con la
+            formación y la prevención los convierte en un pilar esencial de la comunidad.
+          </figcaption>
+        </figure>
+        <figure id="institutesFigure">
+          <img id=image class='hoverover' loading="lazy" src="../images/hospital.jpg" alt="San Isidro" width="450"
+            height="300">
+          <figcaption>
+            <h2>Hospital Santa Rosa Pueblo Libre</h2>
+            Fundado en 1975, el Hospital Santa Rosa es una institución de salud comprometida con el bienestar de la
+            comunidad. Este hospital ofrece una amplia gama de servicios médicos, desde atención de emergencia hasta
+            especialidades médicas, y se esfuerza por brindar atención de calidad a todos sus pacientes. Bajo la
+            dirección de la <span class="names">Dra. Ana Pérez, Gerente General, y el Dr. Carlos Gómez, Jefe de
+              Emergencias</span>, el equipo de profesionales de la salud trabaja diligentemente para proporcionar
+            cuidados integrales y humanizados. El Hospital Santa Rosa es un referente en atención médica en la región,
+            priorizando siempre la salud y seguridad de la población.
+          </figcaption>
+        </figure>
+      </section>
+    </div>
+  </main>
+  <footer id="footer">
+    <ul class="foot" id="footLarge">
+      <li class="one" id="oneLarge">
+        <h3>Las Brisas Club</h3>
+        <h4>310 Gertrudis St</h4>
+        <h4>Peru, Lima 15088</h4>
+        <h4>contact@lasbrisasclub.pe</h4>
+        <h4>+51 1 987 5435</h4>
+      </li>
+      <li class="socialMedia">
+        <ion-icon name="logo-youtube"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </li>
+      <li class="dos">
+        <h4>WDD231 Class Project</h4>
+        <h4>Alvaro Cerpa Baron</h4>
+        <p class="footer-p">
+          @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+        </p>
+        <p class="modification">
+          <span id="lastModified"></span>
+        </p>
+    </ul>
+  </footer>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+</html>

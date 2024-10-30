@@ -22,24 +22,38 @@ const cards = document.querySelector('#cards')
 
 
 async function getCompaniesData() {
-  const response = await fetch('https://fierilyheavenlyeagle.github.io/wdd231/chamber/java/members.json');
+  const response = await fetch('https://fierilyheavenlyeagle.github.io/wdd231/finalproject/js/activities-list.json');
   const data = await response.json();
 
-  displayBusinesses(data.businesses);
+  displayBusinesses(data.activities);
 
 }
 
-const displayBusinesses = (businesses) => {
-  businesses.forEach(business => {
+const displayBusinesses = (activity) => {
+  activity.forEach(activities => {
+
     const card = document.createElement("section");
     const name = document.createElement("h2");
+    const description = document.createElement('h4');
+    const date = document.createElement('h4');
+    const time = document.createElement('h4');
     const address = document.createElement('h4');
     const phone = document.createElement('h4');
-    const website = document.createElement('h4');
-    const membership_level = document.createElement('h4');
-    const description = document.createElement('h4');
-    const founded = document.createElement('h4');
+    const submit = document.createElement('button');
     const image = document.createElement('img');
+
+
+    const descriptionLabel = document.createElement('span');
+    descriptionLabel.textContent = 'Description ';
+    descriptionLabel.classList.add('label');
+
+    const dateLabel = document.createElement('span');
+    dateLabel.textContent = 'Date ';
+    dateLabel.classList.add('label');
+
+    const timeLabel = document.createElement('span');
+    timeLabel.textContent = 'Time ';
+    timeLabel.classList.add('label');
 
     const addressLabel = document.createElement('span');
     addressLabel.textContent = 'Address ';
@@ -49,88 +63,74 @@ const displayBusinesses = (businesses) => {
     phoneLabel.textContent = 'Phone Number ';
     phoneLabel.classList.add('label');
 
-    const websiteLabel = document.createElement('span');
-    websiteLabel.textContent = 'Website ';
-    websiteLabel.classList.add('label');
-
-    const membershipLabel = document.createElement('span');
-    membershipLabel.textContent = 'Membership Level ';
-    membershipLabel.classList.add('label');
-
-    const descriptionLabel = document.createElement('span');
-    descriptionLabel.textContent = 'Description ';
-    descriptionLabel.classList.add('label');
-
-    const foundedLabel = document.createElement('span');
-    foundedLabel.textContent = 'Founded ';
-    foundedLabel.classList.add('label');
-
-
-    name.textContent = `${business.name}`;
+    name.textContent = `${activities.name}`;
 
     const addressSpan = document.createElement('span')
     addressSpan.classList.add('textSpan');
-    addressSpan.textContent = `${business.address}`
+    addressSpan.textContent = `${activities.address}`
 
     address.appendChild(addressLabel);
     address.appendChild(addressSpan);
 
     const phoneSpan = document.createElement('span')
     phoneSpan.classList.add('textSpan');
-    phoneSpan.textContent = `${business.phone}`
+    phoneSpan.textContent = `${activities.contact
+      }`
 
     phone.appendChild(phoneLabel);
     phone.appendChild(phoneSpan);
 
-    const websiteSpan = document.createElement('span');
-    websiteSpan.classList.add('website');
-    websiteSpan.textContent = `${business.website}`;
+    const dateSpan = document.createElement('span');
+    dateSpan.classList.add('date');
+    dateSpan.textContent = `${activities.date}`;
 
-    website.appendChild(websiteLabel);
-    website.appendChild(websiteSpan);
+    date.appendChild(dateLabel);
+    date.appendChild(dateSpan);
 
 
-    const membershipSpan = document.createElement('span');
-    membershipSpan.classList.add('membership');
-    membershipSpan.textContent = `${business.membership_level}`
+    const timeSpan = document.createElement('span');
+    timeSpan.classList.add('time');
+    timeSpan.textContent = `${activities.time}`
 
-    membership_level.appendChild(membershipLabel);
-    membership_level.appendChild(membershipSpan);
+    time.appendChild(timeLabel);
+    time.appendChild(timeSpan);
 
 
     const descriptionSpan = document.createElement('span')
     descriptionSpan.classList.add('textSpan');
-    descriptionSpan.textContent = `${business.description}`
+    descriptionSpan.textContent = `${activities.description}`
 
     description.appendChild(descriptionLabel);
     description.appendChild(descriptionSpan);
 
-
-    const foundedSpan = document.createElement('span')
-    foundedSpan.classList.add('textSpan');
-    foundedSpan.textContent = `${business.founded}`
+    submit.textContent = 'Register';
+    submit.classList.add('registerButton');
 
 
-    founded.appendChild(foundedLabel);
-    founded.appendChild(foundedSpan);
-
-
-    image.setAttribute('src', business.image);
-    image.setAttribute('alt', `Icon of ${business.name}`);
+    image.setAttribute('src', activities.image);
+    image.setAttribute('alt', `Icon of ${activities.name}`);
     image.setAttribute('loading', 'lazy');
     image.setAttribute('width', '340');
     image.setAttribute('heigth', '440');
 
     card.appendChild(name);
+    card.appendChild(description);
+    card.appendChild(date);
+    card.appendChild(time);
     card.appendChild(address);
     card.appendChild(phone);
-    card.appendChild(website);
-    card.appendChild(membership_level);
-    card.appendChild(description);
-    card.appendChild(founded);
     card.appendChild(image);
+    card.appendChild(submit);
 
     cards.appendChild(card);
+  });
+
+  const registerButtons = document.querySelectorAll('.registerButton');
+  registerButtons.forEach(button => {
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      modal.showModal();
+    });
   });
 
 }
@@ -143,6 +143,7 @@ gridbutton.addEventListener("click", () => {
   // example using arrow function
   display.classList.add("grid");
   display.classList.remove("list");
+  display.classList.remove('origin');
 });
 
 listbutton.addEventListener("click", showList); // example using defined function
@@ -150,7 +151,23 @@ listbutton.addEventListener("click", showList); // example using defined functio
 function showList() {
   display.classList.add("list");
   display.classList.remove("grid");
+  display.classList.remove('origin');
 }
 
 
 getCompaniesData();
+
+/********************************/
+
+
+const modal = document.querySelector('#modal');
+const closeModal = document.querySelector('.close-button');
+
+if (closeModal) {
+  closeModal.addEventListener('click', () => {
+    modal.close();
+  });
+}
+
+
+

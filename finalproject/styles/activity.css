@@ -1,84 +1,188 @@
-
-h4 {
-  grid-column: 2/3;
-}
+@media only screen and (max-width:40rem) {
 
 
-/************************************/
-nav {
-  justify-content: space-around;
-  text-align: center;
-  gap: 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
-}
-
-a {
-  background-color: rgb(253, 211, 134);
-  display: block;
-  padding: 8px;
-  font-family: "SUSE", sans-serif;
-  border-top: thin solid hsla(0, 100%, 100%, 0.5)
-}
-
-.wayFinding {
-  background-color: rgba(245, 189, 77, 0.897);
-}
-
-a:hover {
-  background-color: #e0ac44cb;
-}
-
-ul {
-  padding-left: 0px;
-}
-
-ul.animateme.close {
-  display: none;
-}
-
-.socialMedia {
-  font-size: 52px;
-  align-self: center;
-}
+  h4 {
+    grid-column: 2/3;
+  }
 
 
-.foot {
-  display: block;
-  grid-template-columns: auto auto auto;
-  list-style-type: none;
-  background-color: #e99b00;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  margin-top: 50px;
-}
+  /************************************/
+  nav {
+    justify-content: space-around;
+    text-align: center;
+    gap: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
 
-li.one {
-  text-align: left;
-}
+  a {
+    background-color: rgb(253, 211, 134);
+    display: block;
+    padding: 8px;
+    font-family: "SUSE", sans-serif;
+    border-top: thin solid hsla(0, 100%, 100%, 0.5)
+  }
 
-.icon {
-  max-width: 55px;
-  justify-self: end;
-}
+  .wayFinding {
+    background-color: rgba(245, 189, 77, 0.897);
+  }
 
-.headerSection {
-  display: grid;
-  grid-template-columns: 80px auto 80px;
-  align-items: center;
-  background-color: #e99b00;
-  color: aliceblue;
-  font-family: "Pacifico", cursive;
-  margin-bottom: 10px;
-}
+  a:hover {
+    background-color: #e0ac44cb;
+  }
 
-#mybutton {
-  margin-right: 50px;
-  background: transparent;
-  border: transparent;
-  font-size: 25px;
-  font-weight: 100;
-  color: #f5f5f5;
+  ul {
+    padding-left: 0px;
+  }
+
+  ul.animateme.close {
+    display: none;
+  }
+
+  .socialMedia {
+    font-size: 52px;
+    align-self: center;
+  }
+
+
+  .foot {
+    display: block;
+    grid-template-columns: auto auto auto;
+    list-style-type: none;
+    background-color: #e99b00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 50px;
+  }
+
+  li.one {
+    text-align: left;
+  }
+
+  .icon {
+    max-width: 55px;
+    justify-self: end;
+  }
+
+  .headerSection {
+    display: grid;
+    grid-template-columns: 80px auto 80px;
+    align-items: center;
+    background-color: #e99b00;
+    color: aliceblue;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 10px;
+  }
+
+  #mybutton {
+    margin-right: 50px;
+    background: transparent;
+    border: transparent;
+    font-size: 25px;
+    font-weight: 100;
+    color: #f5f5f5;
+  }
+
+  section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+    text-align: start;
+    padding: 20px;
+    font-family: 'SUSE', sans-serif;
+  }
+
+  h1 {
+    font-family: "Caveat", cursive;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    justify-self: center;
+    text-decoration: underline;
+    font-size: 17pt;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
+
+  img {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  span.label {
+    color: #172a50;
+    font-size: 15px;
+  }
+
+  span.textSpan {
+    font-size: 11pt;
+  }
+
+  button.registerButton {
+    padding-inline: 90px;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-block: 14px;
+    background-image: linear-gradient(#0077b6, #0096c7);
+    color: #eee;
+    border-radius: 4px;
+    font-size: 13pt;
+  }
+
+  button#grid {
+    display: none;
+  }
+
+  button#list {
+    display: none;
+  }
+
+
+  /****Modal****/
+
+  #modal {
+    display: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    border-radius: 8px;
+    border: solid thin rgb(231, 224, 224);
+    font-family: "SUSE", sans-serif;
+  }
+
+  .close-button {
+    position: absolute;
+    left: 88%;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  input {
+    display: block;
+    margin-top: 10px;
+    border: solid thin rgb(197, 193, 193);
+    border-radius: 4px;
+    padding-inline: 15%;
+    justify-self: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  input[type=submit] {
+    margin-top: 30px;
+  }
+
+
+  /******************/
 }
